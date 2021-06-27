@@ -1,0 +1,122 @@
+body {
+  background-color: #f6f9fc;
+  color: rgb(64, 57, 74);
+  font-family: 'Roboto Slab', serif;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+h1, h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  color: #3C096C;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+h2 {
+  color: #06D6A0;
+  font-size: 18px;
+  font-weight: 400;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #6638f0;
+  font-weight: 400;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #06D6A0;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+  padding: 30px;
+  background-color: white;
+  margin: 20px 0px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  text-align: center;
+  border-style: dashed;
+  border-width: medium;
+  border-color: #06D6A0;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 20%;
+  height: 20%;
+  object-fit: contain
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 40px;
+}
+
+.btn-purple {
+  background-color: #6638f0;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.btn-purple:hover {
+  background-color: #06D6A0;
+  color: white;
+}
+
+#introduction p {
+  margin-bottom: 15px;
+}
+
+.footer {
+  background: #f6f9fc;
+  color: #6638f0;
+  padding: 10px 0px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  text-align: right;
+  margin-right: 15px;
+}
